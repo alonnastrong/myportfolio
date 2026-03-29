@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Sophomore Year (Present)"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Fintech Fellow</h3>
+            <h4 className="vertical-timeline-element-subtitle">Greenwood Project – Synchronous</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Selected for a highly competitive year-long FinTech Academy with weekly engagements to enhance understanding of financial technology & digital transformation in financial services
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Summer 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Research Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Auburn University CASE REU – Auburn, AL</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Contributed to research paper titled "Humanoid Robot Hazard Analysis & Risk Assessment Using Agentic AI," proposing an AI-driven framework leveraging vision-language models (VLMs) for physical hazard detection in robotic CAD designs, mapping safety insights to ISO standards
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Freshman Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">SEO First-Year Developer Fellow</h3>
+            <h4 className="vertical-timeline-element-subtitle">Synchronous</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Completed 50+ hours of live instruction in software engineering best practices—including debugging, testing, Git/GitHub source control, deployment & monitoring
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Freshman Year"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">AI4ALL IGNITE Fellow</h3>
+            <h4 className="vertical-timeline-element-subtitle">Synchronous</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Completed 80+ hours of project-based instruction, gaining hands-on experience in data preprocessing, supervised learning, model evaluation, & deploying ML systems, culminating in capstone project
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

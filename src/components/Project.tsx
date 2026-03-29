@@ -1,14 +1,6 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import alonnaPoster from '../assets/images/AlonnaPoster.png';
+import p5js from '../assets/images/p5js.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,54 +9,56 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <div style={{maxWidth: "400px", margin: "0 auto"}}>
+                    <div style={{position: "relative", paddingBottom: "62.5%", height: 0}}>
+                        <iframe
+                            src="https://www.loom.com/embed/ad263eee8c864da4a1237650ace992e0"
+                            frameBorder={0}
+                            allowFullScreen
+                            style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                        />
+                    </div>
+                </div>
+                <h2>Coconut Bonk</h2>
+                <p>In this first-person game, you find yourself stranded on a deserted island, relying on coconuts as your primary resource to fend off two relentless enemies. Beware—being knocked into the beach water results in life loss!</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <div style={{maxWidth: "150px", margin: "0 auto"}}>
+                    <div style={{position: "relative", paddingBottom: "216.48%", height: 0}}>
+                        <iframe
+                            src="https://www.loom.com/embed/a9b68025b0194f14b239b6fcf79f53ef"
+                            frameBorder={0}
+                            allowFullScreen
+                            style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                        />
+                    </div>
+                </div>
+                <h2>EcoEats</h2>
+                <p>An iOS app that utilizes Xcode's CoreML to scan food items placed in front of the camera and provides personalized recipe recommendations based on the identified ingredients. For the KWK X Deloitte Alumni Challenge.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <img src={alonnaPoster} className="zoom" alt="Auburn CASE REU Research Poster" width="100%"/>
+                <h2>Humanoid Robot Hazard Analysis & Risk Assessment Using Agentic AI</h2>
+                <p>Contributed to a research paper titled "Humanoid Robot Hazard Analysis & Risk Assessment Using Agentic AI." Conducted an extensive literature review to inform backend architecture design, with a focus on recent advances in transformer models, computer vision, and image segmentation to enhance the system's hazard detection capabilities.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <div style={{maxWidth: "400px", margin: "0 auto"}}>
+                    <div style={{position: "relative", paddingBottom: "62.5%", height: 0}}>
+                        <iframe
+                            src="https://www.loom.com/embed/92159c8d6a434ff5897546a38eb180aa"
+                            frameBorder={0}
+                            allowFullScreen
+                            style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                        />
+                    </div>
+                </div>
+                <h2>NUConnect</h2>
+                <p>NUConnect is a map-based campus engagement app that helps returning Northeastern students rediscover Boston by finding nearby events, viewing details, saving and managing plans, and socially coordinating through invitations, attendee lists, and in-app messaging.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <img src={p5js} className="zoom" alt="P5JS Self Portrait" width="100%"/>
+                <h2>P5JS Self Portrait</h2>
+                <p>This project is a generative self-portrait created using p5.js for my Prototyping With Code course. The composition is built entirely from code using custom shapes, Bézier curves, and ellipses to form facial features, hair textures, and clothing. The portrait explores contrast and duality through asymmetrical hair styling and a vertical dividing line that splits the canvas. Repeating floral forms and soft pastel colors frame the figure, adding balance and visual rhythm. Typography is incorporated directly into the canvas to reinforce the theme of personal identity.</p>
             </div>
         </div>
     </div>
